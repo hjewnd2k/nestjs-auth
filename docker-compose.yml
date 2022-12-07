@@ -5,10 +5,10 @@ services:
     ports:
     - 5434:5432
     environment:
-      POSTGRES_USER: postgres
+      POSTGRES_USER: admin
       POSTGRES_PASSWORD: 123
-      POSTGRES_DB: nest
+      POSTGRES_DB: booking_hotel
     networks:
-      - freecodecamp
+      - huyhieudev
 networks:
-  freecodecamp:
+  huyhieudev:
